@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Mr Dafoe', cursive;
+    font-family: 'Pacifico', cursive;
     color: #c9c1c9;
     background: url('../img/body-bacg.jpeg')center/cover fixed no-repeat;
 }
@@ -30,10 +30,10 @@ body{
 
 #header{
     min-height: calc(100vh - 94px);
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../img/banner.jpeg');
+    background: url('../img/banner2.jpeg');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     position: relative;
 }
@@ -45,6 +45,7 @@ body{
 .banner h1{
     border-top: 6px dotted #c9c1ac;
     border-bottom: 6px dotted #c9c1ac;
+    font-size: 60px;
     animation: fromLeft;
     animation-duration: 4s;
     animation-delay: 2s;

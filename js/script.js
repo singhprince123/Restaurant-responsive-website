@@ -26,7 +26,7 @@ $(document).ready(function(){
 
 /* smooth scroll */
 
-$(".nav-item a, .header-link,#back-to-top").click(function(link){
+$(".nav-item a, .header-link,#back-to-top, #header a").click(function(link){
     link.preventDefault();
 
     let target = $(this).attr('href');
@@ -55,8 +55,8 @@ $(window).scroll(function(){
 
     /* ripple */
     $('#header , info').ripples({
-        dropRadius: 20,
-        perturbance: 0.01
+        dropRadius: 30,
+        perturbance: 0.04
         
       })
 
